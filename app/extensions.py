@@ -6,14 +6,12 @@ from flask_cors import CORS
 from flask_jwt_extended import JWTManager
 from flask_limiter import Limiter
 from flask_migrate import Migrate
-from flask_restx import Api, Namespace, reqparse
+from flask_restx import Api, reqparse
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import MetaData
 from sqlalchemy.orm import DeclarativeBase
 
 from .settings import configs
-
-DEFAULT_REF_TEMPLATE_SWAGGER_2_0 = "#/definitions/{model}"
 
 
 class Base(DeclarativeBase):

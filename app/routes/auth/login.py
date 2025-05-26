@@ -11,6 +11,7 @@ from app.resources.serializers.user_model import UserModel
 
 from . import create_tokens, ns
 
+
 @ns.route("/login")
 class LoginRoute(Resource):
     _login_parser = CustomParser()
