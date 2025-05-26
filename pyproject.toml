@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "hackvortex-25"
+version = "1.0.0"
+description = "Team 'return swag;' project submission for HackVortex 25"
+authors = ["lamergameryt <ifung230@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.1.1"
+flask-sqlalchemy = "^3.1.1"
+flask-jwt-extended = "^4.7.1"
+flask-restx = "^1.3.0"
+flask-cors = "^6.0.0"
+flask-migrate = "^4.1.0"
+flask-limiter = "^3.12"
+flask-admin = "^1.6.1"
+python-dotenv = "^1.1.0"
+google-auth = "^2.40.2"
+flask-httpauth = "^4.8.0"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
